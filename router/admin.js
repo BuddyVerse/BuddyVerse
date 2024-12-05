@@ -11,7 +11,6 @@ const { json } = require("body-parser");
 const dirName = require("../dirName");
 
 // Admin Registration Starts \\
-//AFWFIOW\\
 router.get("/admin-register", async (req, res) => {
   res.render("Admin/adminRegister");
 });
