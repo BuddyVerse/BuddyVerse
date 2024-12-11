@@ -9,7 +9,7 @@ const fs = require('fs');
 const path = require('path');
 const { json } = require("body-parser");
 const dirName = require("../dirName");
-
+//afioahfio
 // Admin Registration Starts \\
 router.get("/admin-register", async (req, res) => {
   res.render("Admin/adminRegister");
